@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio kundana</title>
+  <style>
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #c9c6c6;
+    }
+    
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    header h1 {
+      font-size: 36px;
+      color: #0a0a0a;
+      margin: 0;
+      padding: 20px 0;
+      font-weight: 500;
+    }
+    
+
+    .hero {
+      text-align: center;
+      padding: 50px 0;
+      background-color: #f5f5f5;
+    }
+    
+    .hero h2 {
+      font-size: 28px;
+      color: #333;
+      margin: 0;
+      padding-bottom: 10px;
+    }
+    
+    .hero p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    
+ 
+    .portfolio {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    .portfolio h2 {
+      font-size: 28px;
+      color: #333;
+      margin: 0;
+      padding-bottom: 10px;
+    }
+    
+    .portfolio p {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    
+    
+    footer {
+      text-align: center;
+      background-color: #333;
+      padding: 20px;
+      color: #777575;
+      font-weight: 300;
+    }
+    
+    footer p {
+      margin: 0;
+    }
+    
+  
+    .logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      animation: slideAnimation 3s infinite;
+    }
+    
+    
+    @keyframes slideAnimation {
+      0% {
+        transform: translateX(-100%);
+      }
+      50% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to My Portfolio</h1>
+    </header>
+    <img class="logo" src="kundana.jpg" alt="Logo" width="200" height="200">
+    
+    <section class="hero">
+      <h2>Hi, I'm kundana</h2>
+      <p>I'm a web developer passionate about creating amazing websites. <br> 
+      Keen to learn and enhance as a Frontend developer.</p>
+      <a href="#portfolio">View Portfolio</a>
+    </section>
+    
+    <section class="portfolio" id="portfolio">
+      <h2>My Portfolio</h2>
+      <p>Here are some of my recent projects:</p>
+     
+      <div class="portfolio-item">
+        <h3>Project 1</h3>
+        <p>Description of project 1 <br>
+         landing page</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Project 2</h3>
+        <p>Description of project 2 <br>
+        Temperature Converter landing page</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Project 3</h3>
+        <p>Description of project 3 <br>
+        Chaibubble landing page</p>
+      </div>
+    </section>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 kundana. All rights reserved.</p>
+  </footer>
+</body>
+</html>
